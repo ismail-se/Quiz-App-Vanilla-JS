@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScripts Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>JavaScript Quiz</h1>
+    </header>
+    <div class="timer">
+      <div class="container">
+        <div class="min">0</div>:
+        <div class="sec">0</div>:
+        <div class="msec">0</div>
+    </div>
+    </div>
+    <!-- Main -->
+    <main>
+      <input type="text" id="name" placeholder="Enter Your Name" required />
+      <div class="start">
+        <p>You have 10 minutes to answer all the questions</p>
+        <button class="testStart" onclick="start()">Start Quiz</button>
+      </div>
+    </main>
+    <footer>
+      Developed by
+      <a href="https://www.facebook.com/MIsmailOfficial/" target="_blank"
+        >Muhammad Ismail</a
+      >
+    </footer>
+  </body>
+  <script src="app.js"></script>
+</html>

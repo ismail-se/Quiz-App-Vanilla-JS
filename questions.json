@@ -1,0 +1,107 @@
+[
+    {
+        "q": "Which built-in method combines the text of two strings and returns a new string?",
+        "o1": "append()",
+        "o2": "concat()",
+        "o3": "substr()",
+        "ans": "concat()"
+    },
+    {
+        "q": "Which of the following function of Number object forces a number to display in exponential notation?",
+        "o1": "toExponential()",
+        "o2": "toFixed()",
+        "o3": "toPrecision()",
+        "ans": "toExponential()"
+    },
+    {
+        "q": "Which event occur when an HTML element has been changed?",
+        "o1": "onclick",
+        "o2": "onmouseover",
+        "o3": "onchange",
+        "ans": "onchange"
+    },
+    {
+        "q": "Which method/keyword is used for debugging?",
+        "o1": "console.log()",
+        "o2": "debugger",
+        "o3": "both",
+        "ans": "both"
+    },
+    {
+        "q": "Which string method is used to removes whitespace from both sides of a string?",
+        "o1": "trim()",
+        "o2": "space()",
+        "o3": "select()",
+        "ans": "trim()"
+    },
+    {
+        "q": "Which comparison operator is used to check equal value and also equal type?",
+        "o1": "=",
+        "o2": "==",
+        "o3": "===",
+        "ans": "==="
+    },
+    {
+        "q": "Which keyword is used to throw an error?",
+        "o1": "throws",
+        "o2": "throw",
+        "o3": "thrown",
+        "ans": "throw"
+    },
+    {
+        "q": "Which keyword is used to inherit a class?",
+        "o1": "extends",
+        "o2": "impliment",
+        "o3": "inherit",
+        "ans": "extends"
+    },
+    {
+        "q": "Which keyword is used to check the data type of a variable?",
+        "o1": "type",
+        "o2": "typeof",
+        "o3": "datatype",
+        "ans": "typeof"
+    },
+    {
+        "q": "Which symbol is used for bitwise XOR?",
+        "o1": "!",
+        "o2": "&",
+        "o3": "^",
+        "ans": "^"
+    },
+    {
+        "q": "We can change css propery of any HTML tag using",
+        "o1": ".style property",
+        "o2": ".css property",
+        "o3": ".script property",
+        "ans": ".style property"
+    },
+    {
+        "q": "We can create HTML element using",
+        "o1": "createHtml",
+        "o2": "createElement",
+        "o3": "createNode",
+        "ans": "createElement"
+    },
+    {
+        "q": "We can convert number into string using",
+        "o1": "toString()",
+        "o2": "stringTo()",
+        "o3": "toPrecision()",
+        "ans": "toString()"
+    },
+    {
+        "q": "What keyword is used for creating an instance of a class?",
+        "o1": "inst",
+        "o2": "new",
+        "o3": "make",
+        "ans": "new"
+    },
+    {
+        "q": "Which array method calls a function (a callback function) once for each array element",
+        "o1": "forEach()",
+        "o2": "map()",
+        "o3": "filter()",
+        "ans": "forEach()"
+    }
+]

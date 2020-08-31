@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --ligth-pink: #ffebea;
+    --dark-pink: #ffa7a6;
+    --light-blue: #d0f2fe;
+    --dark-blue: #189bd3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    background-color: #f5f5f5;
+    border: none;
+    font-size: 1rem;
+    padding: 0.95rem;
+    width: 40rem;
+  }
+input:focus {
+    outline: none;
+}
+
+body {
+    background-color: var(--ligth-pink);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 5rem;
+    text-align: center;
+    background-color: var(--dark-pink);
+    color: var(--ligth-pink);
+    height: 50vh;
+    width: 100vw;
+}
+
+main{
+    width: 80vw;
+    height: 50vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25vh;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    position: relative;
+    padding: 2rem;
+}
+
+.start  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40rem;
+    margin-top: 1rem;
+}
+.testStart, .next {
+    background: var(--dark-blue);
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+}
+.next {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 1rem;
+}
+.options input {
+    width: auto;
+}
+.options div {
+    margin: 0.5rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+}
+
+.timer {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 3rem;
+    color: #ffffff;
+}
+.timer .container {
+    display: flex;
+}
